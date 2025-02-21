@@ -5,14 +5,15 @@
 • Name the project expense-tracker-app.
 • Install Bootstrap for styling (optional), but the final output must use a table. (NB: Do not use any DataTable package; the table should be implemented manually.)
 
+
 ## Component Architecture :
-### 1. TransactionList.vue
+#### 1. TransactionList.vue
 • Displays the list of transactions in a table.
 • Allows filtering transactions by income, expense, or all.
 • Provides a delete button for each transaction.
 • location: src/components/TransactionList.vue
 
-### 2. AddTransaction.vue
+#### 2. AddTransaction.vue
 • Contains a form to add new transactions with fields:
 1. Title (text)
 2. Amount (number)
