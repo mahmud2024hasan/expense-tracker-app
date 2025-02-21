@@ -2,9 +2,7 @@
 
 ## Project Setup :
 • Create a new Vue project using Vite.
-
 • Name the project expense-tracker-app.
-
 • Install Bootstrap for styling (optional), but the final output must use a table. (NB: Do not use any DataTable package; the table should be implemented manually.)
 
 
