@@ -7,10 +7,10 @@
 
 ## Component Architecture :
 #### 1. TransactionList.vue
-• Displays the list of transactions in a table.
-• Allows filtering transactions by income, expense, or all.
-• Provides a delete button for each transaction.
-• location: src/components/TransactionList.vue
+• Displays the list of transactions in a table.  
+• Allows filtering transactions by income, expense, or all.  
+• Provides a delete button for each transaction.  
+• location: src/components/TransactionList.vue  
 
 #### 2. AddTransaction.vue
 • Contains a form to add new transactions with fields:
@@ -21,13 +21,13 @@
 • location: src/components/AddTransaction.vue
 
 ## Data and State Management :
-• Store transactions in a reactive state inside a ref().
-• Load transactions from localStorage when the app starts.
-• Save transactions to localStorage when a new one is added or deleted.
+• Store transactions in a reactive state inside a ref().  
+• Load transactions from localStorage when the app starts.  
+• Save transactions to localStorage when a new one is added or deleted.  
 
 ## Style Binding :
-• Use Bootstrap table styles or a similar framework.
-• Apply text colors dynamically:
+• Use Bootstrap table styles or a similar framework.  
+• Apply text colors dynamically:  
 1. Green for Income
 2. Red for Expense
 3. Bold for expenses above or equal $500
@@ -37,19 +37,19 @@
 • If no transactions exist, display: "No transactions recorded yet."
 
 ## List Rendering & Filters :
-• Display transactions in a table using v-for.
-• Implement a filter to show only:
+• Display transactions in a table using v-for.  
+• Implement a filter to show only:  
 1. All transactions
 2. Income transactions
 3. Expense transactions
 
 ## JavaScript Logic & Validation :
-• Amount must be greater than 0 and not a negative number.
+• Amount must be greater than 0 and not a negative number.  
 
 ## Dynamic Event Handling :
-• Clicking "Add" should create a new transaction.
-• Clicking "Delete" should remove a transaction and update localStorage.
+• Clicking "Add" should create a new transaction.  
+• Clicking "Delete" should remove a transaction and update localStorage.  
 
 ## Persistent Data :
-• Store transactions in localStorage to persist after a page reload.
-• When deleting a transaction, update localStorage.
+• Store transactions in localStorage to persist after a page reload.  
+• When deleting a transaction, update localStorage.  
